@@ -3,6 +3,12 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    int a, b, s;
+    printf("digite dois numeros inteiros: ");
+    scanf("%d%d", &a, &b, &s);
+    s = a + b;
+    printf("a soma entre os dois interios e: %d ", s);
+
+
     return 0;
 }
