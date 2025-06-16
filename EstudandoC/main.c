@@ -7,7 +7,7 @@ int main()
     printf("digite dois numeros inteiros: ");
     scanf("%d%d", &a, &b, &s);
     s = a + b;
-    printf("a soma entre os dois interios e: %d ", s);
+    printf("a soma entre os dois inteiros e: %d ", s);
 
 
     return 0;
