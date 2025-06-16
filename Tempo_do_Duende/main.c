@@ -10,7 +10,7 @@ printf("informe o quan tempo p fazer o presente a: ");
 scanf("%d", &a);
 printf("informe do b:");
 scanf("%d", &b);
-if(n >= a && n >= b)
+if(a + b <= n)
     printf("farei hoje!");
 else
     printf("deixa pra amanha!");
