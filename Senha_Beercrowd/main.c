@@ -1,4 +1,6 @@
 #include <stdio.h>
+// Programa que imprime um numero perto de uma senha digitada:
+//trabalho no Beercrowd da minha faculdade
 
 int main() {
     int n;
@@ -7,3 +9,4 @@ int main() {
     }
     return 0;
 }
+]
