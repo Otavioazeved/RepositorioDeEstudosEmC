@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define N 5
+#define N 500
 // arrays/vetor
 int main()
 {
