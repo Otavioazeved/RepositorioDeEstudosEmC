@@ -2,14 +2,21 @@
 #include <stdlib.h>
 
 int main() {
-    int vet[5], soma = 0;
-    for(int i = 0; i < 5; i++){
-            printf("digite os valores da posicao: %d", i);
-        scanf("%d", &vet[i]);
-        soma = soma + vet[i];
-    }
-    printf(" a soma dos valores %d\n", soma);
+   int mat[2][3];
+   for(int i = 0; i < 2; i++){
+        for(int j = 0; j < 3; j++){
+            printf("Digite os valores na posicao: [%d] [%d]", i, j);
+            scanf("%d", &mat[i][j]);
+        }
+   }
 
+   printf("\nMatriz digitada\n");
+   for(int i = 0; i < 2; i++){
+    for(int j = 0; j < 3; j++){
+        printf("%d", mat[i][j]);
+    }
+    printf("\n");
+   }
 
     return 0;
 }
