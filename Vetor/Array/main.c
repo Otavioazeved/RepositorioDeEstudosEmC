@@ -1,19 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+#define tam 20
 int main() {
-    int mat [3] [3] = {{1,2,3}, {4,5,6},{7,8,9}};
+    int matriz [matriz]
     int soma = 0;
+    // ler a matriz
+    printf("Digite uma matriz de 9 numeros inteiros");
     for(int i = 0; i<3; i++){
-        for(int j=0; j<3; j++){
-            soma += mat[i][j];
+        for(int j = 0; j<3; j++){
+            scanf("%d\n", &matriz[i][j]);
         }
     }
 
-    printf("Soma = %d\n", soma);
-
-
+    // imprimir a matriz fornecida pelo usuario
+    for(int i = 0; i<3; i++){
+        for(int j = 0; j<3; j++){
+            printf("%d\t", matriz[i][j]);
+        }
+        printf("\n");
+    }
 
 
     return 0;
