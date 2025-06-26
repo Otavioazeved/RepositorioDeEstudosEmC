@@ -3,14 +3,16 @@
 
 
 int main() {
-
-    int lista[5] = {1,2,3,4,5};
+    int mat [3] [3] = {{1,2,3}, {4,5,6},{7,8,9}};
     int soma = 0;
-    for(int i = 0; i<5; i++){
-        soma += lista[i];
+    for(int i = 0; i<3; i++){
+        for(int j=0; j<3; j++){
+            soma += mat[i][j];
+        }
     }
 
     printf("Soma = %d\n", soma);
+
 
 
 
