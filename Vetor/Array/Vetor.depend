@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1750961147 source:c:\users\otavi\onedrive\Área de trabalho\studyinc\vetor\array\main.c
+1751035845 source:c:\users\otavi\onedrive\Área de trabalho\studyinc\vetor\array\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 
