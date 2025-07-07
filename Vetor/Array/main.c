@@ -2,38 +2,17 @@
 #include <stdlib.h>
 #include <string.h>
 int main() {
-    //strlen
-    char  palavra [29] =  "Linguagem C";
-    int length = strlen(palavra);
-
-    printf("length = %d\n", length);
+  // como inverter uma string?
 
 
-    //strcpy
-    char palavra2 [20] = "Flamengo Campeao";
-    char novapalavra[30];
-    strcpy(novapalavra,palavra2);
-
-    printf("Copia = %s\n", novapalavra);
-
-    //strcat
-    char palavra3 [10] = "Flamengo ";
-    char palavra4 [10] = "Win";
-    strcat (palavra3, palavra4);
-
-    printf(" Palavra = %s\n", palavra3);
+  char str [20] = "Linguagem C";
+  int i;
+  for(i=strlen(str) - 1; i>=0; i--){
+    printf("%c", str[i]);
+  }
+  printf("\n");
 
 
-    //  strcmp
-
-    char palavra5 [12] = "Linguagem Java";
-    char palavra6 [12] = "Linguagem Java";
-    if(strcmp (palavra5, palavra6) == 1){
-        printf("Strings iguais\n ");
-    }else {
-        printf("Strings diferentes\n");
-
-    }
 
     return 0;
 }
