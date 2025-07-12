@@ -1,22 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{
-int m [3] [3] ={1,2,3,
-                4,5,6,
-                7,8,9};
-                int i, j, s = 0;
-                for(i = 0; i<3; i++){
-                    for(j = 0; j<3; i++){
-                        if(j == 2 - i)
+int main(){
 
-                            s += m [i][i] * m[i][j];
-                                printf("%d", s);
-                    }
+    /*resolvendo questoes do livros*/
 
-                }
+    printf("Bem-vindos ao /Mundo/ da programacao em \" C\"\n ");
+    printf("*\n");
+    printf("***\n");
+    printf("****\n");
+    printf("/|\\ \n");
 
+    printf("Total\t = \t 100%%\n");
+    printf("IVA\t = \t 17%%%\n");
+    printf("IRS\t = \t 15%\n");
+    printf("-------------------\n");
+    printf("Liq\t = \t 68%\n");
+
+    puts("Hello Word\n");
 
     return 0;
+
+
 }
