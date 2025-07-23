@@ -116,8 +116,14 @@ for(i=1, j=n; i<=n; i++, j--){
 }
 */
 
-int i;
-printf(" %d", i, (char) i);
+int a, b;
+printf(" digite dois numeros: "); scanf(" %d %d", &a, &b);
+while( a < b && a > 0){
+    a++;
+ printf(" %d\n", a);
+}
+
+printf(" Fim da execucao");
 
 
 
