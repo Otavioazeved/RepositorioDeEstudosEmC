@@ -1,24 +1,60 @@
 #include <stdio.h>
-#include <string.h> // Necessário para a função strlen()
+#include <stdlib.h>
+#define TAM 5
+#define NUM 5
+
 
 int main() {
-    // String a ser analisada
-    char stc[20] = "Linguagem baixa";
-    int i, total = 0;
+    int numeros[TAM];
 
-    int tam1 = strlen(stc);
+int i;
+printf(" Digite %d inteiros: ", TAM);
+for(i = 0; i < TAM; i++){
+        scanf("%d", &numeros[i]);
 
-    // Loop para percorrer cada caractere da string
-    for (i = 0; i < tam1; i++) {
-        // Condição 'if' completa, verificando todas as vogais (minúsculas e maiúsculas)
-        if (stc[i] == 'a' || stc[i] == 'e' || stc[i] == 'i' || stc[i] == 'o' || stc[i] == 'u' ||
-            stc[i] == 'A' || stc[i] == 'E' || stc[i] == 'I' || stc[i] == 'O' || stc[i] == 'U') {
-            total++;
-        }
-    }
+}
+printf("VOce digitou: \n");
+for(i=0; i < TAM; i++){
+    printf("%d\n", numeros[i]);
 
-    // A linha do printf foi movida para dentro da função main, antes do return.
-    printf("Nro vogais = %d\n", total); // A saída será 7
+
+}
+
+/*
+Crie um vetor de 5 inteiros.
+Peça para o usuário digitar os 5 números e armazene no vetor.
+Depois, calcule a soma de todos os números e imprima o resultado.
+*/
+int tamanho[NUM];
+int i, soma = 0;
+printf(" Digite %d inteiros: ", NUM);
+for(i=0; i < NUM; i++){
+    scanf(" %d", &tamanho[i]);
+}
+
+
+for(i=0; i < NUM; i++){
+   soma += tamanho[i];
+}
+printf("a soma dos numeros digitados foi: %d\n ", soma);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     return 0;
 }
