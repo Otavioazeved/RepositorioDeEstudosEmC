@@ -1,40 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-  void linha3x(){
-      int i;
-      for(i=1; i<=3; i++){
-              putchar('*');
-    putchar('\n');
+//Escreva uma função que receba um número e retorne o triplo dele.
 
-      }
-  }
+int triplo(int n){
+    return n * 3;
 
-  void linha5x(){
-      int i;
-      for(i=1; i<=5; i++){
-        putchar('*');
-        putchar('\n');
-      }
+}
 
-  }
-
-  void linha7x(){
-      int i;
-      for(i=1; i<=7; i++){
-        putchar('*');
-        putchar('\n');
-      }
-
-
-  }
 int main()
 {
-    linha3x();
-    linha5x();
-    linha7x();
-    linha5x();
-    linha3x();
+    int v;
+    printf("Digite um numero: ");
+    scanf("%d", &v);
+    int result = triplo(v);
+    printf("o triplo de um numero n e: %d\n", result);
 
     return 0;
 }
