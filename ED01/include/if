@@ -1,0 +1,16 @@
+#ifndef IF_
+#define IF_
+
+
+class if
+{
+    public:
+        if();
+        virtual ~if();
+
+    protected:
+
+    private:
+};
+
+#endif // IF_

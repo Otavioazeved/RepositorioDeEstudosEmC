@@ -1,0 +1,11 @@
+#include "if."
+
+if::if()
+{
+    //ctor
+}
+
+if::~if()
+{
+    //dtor
+}
