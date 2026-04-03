@@ -26,7 +26,7 @@ struct pessoa p[4];
 p[0].idade = 31;
 p[2].numero  = p[0].numero -1;
 
-printf("A idade e o numero eh: %d\n %d\n", p[0].idade, p[0].numero);
+printf("A idade e o numero eh: %d\n", p[0].idade, p[0].numero);
 
 
 
